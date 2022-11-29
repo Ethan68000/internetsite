@@ -1,0 +1,288 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #f5f2e6;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+li {
+    list-style-type: none;
+   }
+  header li {
+    float: right;
+    font-size: 1.2em;
+}
+  header li a {
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    padding: 28px 22px;
+    font-family: 'Goudy Old Style', cursive;
+}
+
+#logo {
+    font-family: 'Georgia', cursive;
+    font-weight: bold;
+    float: left;
+}
+  
+Body {
+    background-image: url(fond\ badminton.jpg);
+}
+
+h1 {
+    font-family: 'Goudy Old Style', cursive;
+    text-align: center;
+    color: rgb(193, 221, 32);
+    font-size: 6.5em;
+    margin-top: 120px;
+    text-shadow: 1px 3px 2px black;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+  }
+#histoire p{
+    color: rgb(196, 21, 21);
+    font-size: 80%;
+    order: 1; 
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Ink free', cursive;
+    margin-right: 390px;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
+
+#règles p{
+    color: rgb(32, 75, 15);
+    font-size: 80%;
+    order: 1; 
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Ink free', cursive;
+    margin-right: 390px;
+}
+
+h4 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
+
+#classements p{
+    color: rgb(231, 136, 10);
+    font-size: 80%;
+    order: 1; 
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Ink free', cursive;
+    margin-right: 390px;
+}
+
+h5 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
+
+h6 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
+
+h7 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 2.5em;
+    font-family: 'Goudy Old Style', cursive;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h8 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    color: black;
+}
+
+h9 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    color: black;
+}
+
+#plus p{
+    color: rgb(12, 11, 11);
+    font-size: 80%;
+    order: 1; 
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Ink free', cursive;
+    margin-right: 390px;
+}
+
+.fa fa-youtube {
+    color: red;
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+
+.fa fa-instagram {
+    color: blueviolet;
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+
+.fa fa-twitter {
+    color: blue;
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+
+.fa fa-facebook {
+    color: blue;
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+.img0 {
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    float: left
+}
+
+.img3 {
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    float: right
+}
+
+.site1 {
+    color: red;
+}
+
+.site2 {
+    color: red;
+    font-size: 1.3em;
+}
+
+.site3 {
+    color: red;
+}
+
+tbody {
+    text-align: center;
+    color: #235a81;
+    font-size: 17px;
+}
+
+tr{
+    background: #ccc;
+}
+tr:nth-child(odd) {
+    background: #fff;
+}
+tr:hover{
+    background: #444;
+    color: #fff;
+}
+thead th {
+    background: rgb(202, 124, 35);
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 20px;
+    font-size: 1.6em;
+    width: 180px;
+}
+
+h40 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1.3em;
+    font-family: 'Goudy Old Style', cursive;
+    text-decoration: underline;
+    color: #000;
+}
+
+h41 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1.9em;
+    font-family: 'Goudy Old Style', cursive;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #000;
+}
+
+h42 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1.9em;
+    font-family: 'Goudy Old Style', cursive;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h43 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1.9em;
+    font-family: 'Goudy Old Style', cursive;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h44 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1.9em;
+    font-family: 'Goudy Old Style', cursive;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
